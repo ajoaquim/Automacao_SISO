@@ -103,7 +103,7 @@ public class FactorySingletonBrowserClass {
 					+ File.separator + "chromedriver";
 		} else if (retornaSistemaOperacional().contains("windows")) {
 			caminho = "src" + File.separator + "main" + File.separator + "resources" + File.separator + "drivers"
-					+ File.separator + "chromedriverWin.exe";
+					+ File.separator + "chromedriver.exe";
 			
 		} else {
 			caminho = File.separator + "usr" + File.separator + "bin" + File.separator + "chromedriver";

@@ -6,7 +6,7 @@ Feature:Manutenção Alteração/Análise
    flegar o campo “procedimento”, logo irá habilitar na “seção – Glosar Procedimentos” o campo glosa, inserir o número "3040", e clicar em executar, logo o procedimento irá retornar com as opções e dentro do mesmo será possível selecionar a “prioridade”. alt
 
   Background:
-    Given que acesse o sistema Odonto
+    Given que acesso o sistema SISO
     And preencho usuário e senha
     And acesse a aba Autorização->Pedido de Autorização-> Alteração/Análise
 
